@@ -16,7 +16,8 @@
 
             <android.support.design.widget.AppBarLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:elevation="4dp">
 
                 <android.support.design.widget.CollapsingToolbarLayout
                     android:layout_width="match_parent"
@@ -35,8 +36,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:fitsSystemWindows="true"
-                            android:scaleType="centerCrop"
-                            />
+                            android:scaleType="centerCrop" />
 
                         <View
                             android:layout_width="match_parent"
@@ -115,6 +115,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:clickable="true"
+        android:elevation="6dp"
         android:focusable="true"
         app:srcCompat="@drawable/ic_share" />
 
